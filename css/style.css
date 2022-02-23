@@ -1,0 +1,122 @@
+/* Css Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    color: white;
+    background: url('../bg.png') no-repeat center center/cover;
+}
+body::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* NAVIGATION BAR  */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* NAVIGATION BAR: LIST STYLING  */
+#navbar ul{
+    display: flex;
+    line-height: 35px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 2px 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    float: left;
+    font-size: 26px;
+}
+
+#navbar ul li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+/* LOGO IMPLIMENTATION  */
+#logo-section{
+    position: relative;
+    margin-top: 30px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-item{
+    padding: 10px 144px;
+}
+#logo img{
+    height: 100px;
+}
+
+/* INFORMATION SECTION  */
+#Info-section{
+    text-align: center;
+}
+
+#Info-section h1{
+    font-size: 100px;
+    background: linear-gradient(to left, yellow, orange, rgb(255, 47, 82),rgb(255, 145, 0),violet,rgb(32, 32, 235),red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+}
+
+#Info-section h2{
+    padding: 25px;
+}
+#Info-section hr{
+    width: 40%;
+    margin: auto;
+    height: 5px;
+    background: yellow;
+}
+h3{
+    color: yellow;
+    margin-bottom: 25px;
+    font-size: 27px;
+}
+b{
+    font-size: 27px;
+    color: rgb(114, 250, 3);
+    margin: 10px;
+}
