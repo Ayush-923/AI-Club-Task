@@ -93,7 +93,7 @@ body::before{
 }
 
 #Info-section h1{
-    font-size: 90px;
+    font-size: 4.6rem;
     background: linear-gradient(to left, yellow, orange, rgb(255, 47, 82),rgb(255, 145, 0),violet,rgb(32, 32, 235),red);
     background-clip: text;
     -webkit-background-clip: text;
