@@ -62,7 +62,7 @@ body::before{
     text-decoration: none;
     align-items: center;
     float: left;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 #navbar ul li a:hover{
@@ -93,7 +93,7 @@ body::before{
 }
 
 #Info-section h1{
-    font-size: 100px;
+    font-size: 90px;
     background: linear-gradient(to left, yellow, orange, rgb(255, 47, 82),rgb(255, 145, 0),violet,rgb(32, 32, 235),red);
     background-clip: text;
     -webkit-background-clip: text;
