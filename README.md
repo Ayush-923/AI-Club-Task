@@ -8,6 +8,5 @@ Create (code) a landing page based on an AI event . Event name , and event descr
 <img width="100%" height="auto" src=".\img/page.png"/>
 </div>
 
-# VIEW SIDE
 
-https://ayush-923.github.io/AI-Club-Task/
+[VIEW SITE!!](https://ayush-923.github.io/AI-Club-Task/)
